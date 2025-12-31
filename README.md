@@ -1,16 +1,63 @@
-# React + Vite
+# Student Score Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application for managing and tracking student scores, built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new students with name, email, and marks
+- View student list with automatic grade calculation (A-F based on marks)
+- Filter students by name/email or grade
+- Display class summary statistics (total students, highest/lowest marks, average)
+- Responsive design with clean UI
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+## Usage
+
+- Use the "Add Student" form to enter new student details
+- Search or filter the student list as needed
+- View summary statistics at the bottom
+
+## Contributing
+
+Feel free to submit issues and pull requests.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
